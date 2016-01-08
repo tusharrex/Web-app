@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <!--https://github.com/tusharrex/Web-app/-->
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/toolbars.css">
+    <title>Application Type OS .</title>
+    <script type="application/javascript" src="js/l10n.js"></script>
+    <!--link rel="resource" type="application/l10n" href="locales/locales.ini" /-->
+    </head>
+    
+    <!--HTML5 type doc-->
+    <body>
+
+    <section role="region">
+        <header>
+            
+            <div id="online-status" title="Online"></div>
+            <menu type="toolbar">
+                <button id="install"><span class="icon icon-menu">menu</span></button>
+            </menu>
+            <h1 data-l10n-id="app-heading">
+                Firefox OS App.
+            </h1>
+        </header>
+    </section>
+    <div id="main">
+      
+      <p id="installation-instructions">Install App.</p>
+
+        <h2 data-l10n-id="web-activities">Activities</h2>
+
+        <button id="pick-image" data-l10n-id="pick-image">Pick Activity</button>
+        <div id="image-presenter"></div>
+
+        <button id="pick-anything" data-l10n-id="pick-anything">Pick Activity</button>
+
+        <button id="record" data-l10n-id="take-picture">Take Activity</button>
+
+        <button id="dial" data-l10n-id="dial-number">Pick Activity</button>
+
+        <button id="send-sms" data-l10n-id="dial-sms">Pick Activity</button>
+
+        <button id="add-contact" data-l10n-id="add-contact">Pick Activity</button>
+    </div>
+    
+    <footer>
+        <div role="toolbar">
+            <ul>
+                <li><button id="reload" class="update" data-l10n-id="update-button"></button></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/offline.js"></script>
